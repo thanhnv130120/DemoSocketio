@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "751682783022",
+    "project_id": "demodeeplink-f3100",
+    "storage_bucket": "demodeeplink-f3100.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:751682783022:android:d16f4a72b309ad188e1cbf",
+        "android_client_info": {
+          "package_name": "com.example.demosocketio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "751682783022-5r9e85ugdr95o8s9vjeotinaa1d9tlft.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdjEITPt_mxpqbSf0Im5GkaFsdSR0YPx8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "751682783022-5r9e85ugdr95o8s9vjeotinaa1d9tlft.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

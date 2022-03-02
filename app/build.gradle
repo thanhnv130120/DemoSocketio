@@ -4,6 +4,7 @@ plugins {
     id 'kotlin-android-extensions'
     id 'kotlin-kapt'
     id 'androidx.navigation.safeargs'
+    id 'com.google.gms.google-services'
 }
 
 android {
@@ -60,4 +61,8 @@ dependencies {
     implementation ('io.socket:socket.io-client:0.8.3') {
         exclude group: 'org.json', module: 'json'
     }
+
+    implementation platform('com.google.firebase:firebase-bom:29.1.0')
+    implementation 'com.google.firebase:firebase-dynamic-links:19.0.0'
+    implementation 'com.google.firebase:firebase-analytics'
 }
