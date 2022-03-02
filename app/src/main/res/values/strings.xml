@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">DemoSocketio</string>
+
+    <string name="user_name">User name</string>
+    <string name="name_room">Name room</string>
+    <string name="enter">Enter</string>
+    <string name="deep_link">Deep link</string>
+
+    <string name="empty_input">Empty input</string>
 </resources>

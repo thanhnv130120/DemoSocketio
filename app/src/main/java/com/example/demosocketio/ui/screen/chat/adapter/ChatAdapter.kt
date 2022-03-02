@@ -6,19 +6,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.demosocketio.data.model.Message
 import com.example.demosocketio.databinding.ItemRcChatBinding
 
-class ChatAdapter : RecyclerView.Adapter<ChatAdapter.ChatViewHolder>() {
-
-    var listMessage = mutableListOf<Message>()
-
-    fun setItem(list: MutableList<Message>) {
-        listMessage.clear()
-        listMessage.addAll(list)
-    }
-
-    fun addItem(message: Message) {
-        listMessage.add(message)
-        notifyItemInserted(listMessage.size)
-    }
+class ChatAdapter(val listMessage: MutableList<Message>) : RecyclerView.Adapter<ChatAdapter.ChatViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ChatAdapter.ChatViewHolder {
         val binding =

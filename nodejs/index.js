@@ -14,6 +14,10 @@ var server = app.listen(3000,()=>{
     console.log('Server is running on port number 3000')
 })
 
+var ip = require('ip');
+
+console.log(ip.address());
+
 //Chat Server
 
 var io = socketIo.listen(server);
